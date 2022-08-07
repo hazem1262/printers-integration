@@ -1,0 +1,2 @@
+app/web/groons/print_bluetooth_thermal/BuildConfig.java
+ app.web.groons.print_bluetooth_thermal.BuildConfig

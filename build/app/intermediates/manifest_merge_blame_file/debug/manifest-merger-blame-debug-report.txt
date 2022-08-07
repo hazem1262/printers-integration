@@ -1,0 +1,184 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.test_printers"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/main/AndroidManifest.xml:3:5-68
+15-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/main/AndroidManifest.xml:3:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/main/AndroidManifest.xml:4:5-74
+16-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/main/AndroidManifest.xml:4:22-71
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/main/AndroidManifest.xml:5:5-80
+17-->/Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/android/app/src/main/AndroidManifest.xml:5:22-78
+18    <!--
+19         Needed only if your app looks for Bluetooth devices.
+20         You must add an attribute to this permission, or declare the
+21         ACCESS_FINE_LOCATION permission, depending on the results when you
+22         check location usage in your app.
+23    -->
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-79
+24-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-76
+25    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+25-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:19:5-73
+25-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:19:22-70
+26    <!--
+27         Needed only if your app makes the device discoverable to Bluetooth
+28         devices.
+29    -->
+30    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+30-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:25:5-78
+30-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:25:22-75
+31    <!--
+32         Needed only if your app communicates with already-paired Bluetooth
+33         devices.
+34    -->
+35    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+35-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:31:5-76
+35-->[:blue_thermal_printer] /Users/hazemdarwish/AndroidStudioProjects/omniful/sdks-samples/printers/test_printers/build/blue_thermal_printer/intermediates/library_manifest/debug/AndroidManifest.xml:31:22-73
+36    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:5-65
+36-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:22:22-62
+37    <uses-feature
+37-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:25:5-27:36
+38        android:name="android.hardware.camera"
+38-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:26:9-47
+39        android:required="false" />
+39-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:27:9-33
+40    <uses-feature
+40-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+41        android:name="android.hardware.camera.front"
+41-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+42        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+42-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+43    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+44    <uses-feature
+44-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:33:5-35:36
+45        android:name="android.hardware.camera.autofocus"
+45-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:34:9-57
+46        android:required="false" />
+46-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:35:9-33
+47    <uses-feature
+47-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+48        android:name="android.hardware.camera.flash"
+48-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+49        android:required="false" />
+49-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+50    <uses-feature
+50-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+51        android:name="android.hardware.screen.landscape"
+51-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+52        android:required="false" />
+52-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+53    <uses-feature
+53-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:42:5-44:36
+54        android:name="android.hardware.wifi"
+54-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:43:9-45
+55        android:required="false" />
+55-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:44:9-33
+56
+57    <application
+58        android:name="android.app.Application"
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.7.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/b9a960218f5163997c0fdfa3d3078c0e/core-1.7.0/AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:icon="@mipmap/ic_launcher"
+62        android:label="test_printers" >
+63        <activity
+64            android:name="com.example.test_printers.MainActivity"
+65            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+66            android:exported="true"
+67            android:hardwareAccelerated="true"
+68            android:launchMode="singleTop"
+69            android:theme="@style/LaunchTheme"
+70            android:windowSoftInputMode="adjustResize" >
+71
+72            <!--
+73                 Specifies an Android theme to apply to this Activity as soon as
+74                 the Android process has started. This theme is visible to the user
+75                 while the Flutter UI initializes. After that, this theme continues
+76                 to determine the Window background behind the Flutter UI.
+77            -->
+78            <meta-data
+79                android:name="io.flutter.embedding.android.NormalTheme"
+80                android:resource="@style/NormalTheme" />
+81
+82            <intent-filter>
+83                <action android:name="android.intent.action.MAIN" />
+84
+85                <category android:name="android.intent.category.LAUNCHER" />
+86            </intent-filter>
+87        </activity>
+88        <!--
+89             Don't delete the meta-data below.
+90             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+91        -->
+92        <meta-data
+93            android:name="flutterEmbedding"
+94            android:value="2" />
+95
+96        <uses-library
+96-->[androidx.window:window:1.0.0-beta04] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+97            android:name="androidx.window.extensions"
+97-->[androidx.window:window:1.0.0-beta04] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+98            android:required="false" />
+98-->[androidx.window:window:1.0.0-beta04] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+99        <uses-library
+99-->[androidx.window:window:1.0.0-beta04] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+100            android:name="androidx.window.sidecar"
+100-->[androidx.window:window:1.0.0-beta04] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+101            android:required="false" />
+101-->[androidx.window:window:1.0.0-beta04] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/03c633e46d75bfb21f082f0417f55161/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+102
+103        <activity
+103-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+104            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+104-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+105            android:clearTaskOnLaunch="true"
+105-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+106            android:screenOrientation="sensorLandscape"
+106-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+107            android:stateNotNeeded="true"
+107-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+108            android:theme="@style/zxing_CaptureTheme"
+108-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+109            android:windowSoftInputMode="stateAlwaysHidden" />
+109-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/3f0744991f84e0bd5e545c0be6828104/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+110
+111        <provider
+111-->[androidx.emoji2:emoji2:1.0.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/8d120aa649c2aed370574c7028952cac/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.emoji2:emoji2:1.0.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/8d120aa649c2aed370574c7028952cac/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+113            android:authorities="com.example.test_printers.androidx-startup"
+113-->[androidx.emoji2:emoji2:1.0.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/8d120aa649c2aed370574c7028952cac/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+114            android:exported="false" >
+114-->[androidx.emoji2:emoji2:1.0.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/8d120aa649c2aed370574c7028952cac/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+115            <meta-data
+115-->[androidx.emoji2:emoji2:1.0.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/8d120aa649c2aed370574c7028952cac/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+116                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+116-->[androidx.emoji2:emoji2:1.0.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/8d120aa649c2aed370574c7028952cac/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+117                android:value="androidx.startup" />
+117-->[androidx.emoji2:emoji2:1.0.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/8d120aa649c2aed370574c7028952cac/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+118            <meta-data
+118-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/2dd7e1e94a0e65810db6291100ebf315/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+119                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+119-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/2dd7e1e94a0e65810db6291100ebf315/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+120                android:value="androidx.startup" />
+120-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hazemdarwish/.gradle/caches/transforms-2/files-2.1/2dd7e1e94a0e65810db6291100ebf315/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+121        </provider>
+122    </application>
+123
+124</manifest>
